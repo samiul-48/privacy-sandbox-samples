@@ -1,0 +1,632 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<issues format="5" by="lint Meerkat Feature Drop | 2024.3.2 Canary 5">
+
+    <issue
+        id="OldTargetApi"
+        message="Not targeting the latest versions of Android; compatibility modes apply. Consider testing and updating this version. Consult the `android.os.Build.VERSION_CODES` javadoc for details.">
+        <location
+            file="build.gradle"/>
+    </issue>
+
+    <issue
+        id="OldTargetApi"
+        message="Not targeting the latest versions of Android; compatibility modes apply. Consider testing and updating this version. Consult the `android.os.Build.VERSION_CODES` javadoc for details.">
+        <location
+            file="build.gradle"/>
+    </issue>
+
+    <issue
+        id="OldTargetApi"
+        message="Not targeting the latest versions of Android; compatibility modes apply. Consider testing and updating this version. Consult the `android.os.Build.VERSION_CODES` javadoc for details.">
+        <location
+            file="build.gradle"/>
+    </issue>
+
+    <issue
+        id="OldTargetApi"
+        message="Not targeting the latest versions of Android; compatibility modes apply. Consider testing and updating this version. Consult the `android.os.Build.VERSION_CODES` javadoc for details.">
+        <location
+            file="build.gradle"/>
+    </issue>
+
+    <issue
+        id="OldTargetApi"
+        message="Not targeting the latest versions of Android; compatibility modes apply. Consider testing and updating this version. Consult the `android.os.Build.VERSION_CODES` javadoc for details.">
+        <location
+            file="build.gradle"/>
+    </issue>
+
+    <issue
+        id="OldTargetApi"
+        message="Not targeting the latest versions of Android; compatibility modes apply. Consider testing and updating this version. Consult the `android.os.Build.VERSION_CODES` javadoc for details.">
+        <location
+            file="build.gradle"/>
+    </issue>
+
+    <issue
+        id="OldTargetApi"
+        message="Not targeting the latest versions of Android; compatibility modes apply. Consider testing and updating this version. Consult the `android.os.Build.VERSION_CODES` javadoc for details.">
+        <location
+            file="build.gradle"/>
+    </issue>
+
+    <issue
+        id="PrivacySandboxBlockedCall"
+        message="Call is blocked in the Privacy Sandbox when `targetSdk` is 34 or above">
+        <location
+            file="src/main/java/com/example/client/MainActivity.kt"
+            line="183"/>
+    </issue>
+
+    <issue
+        id="PrivacySandboxBlockedCall"
+        message="Call is blocked in the Privacy Sandbox when `targetSdk` is 34 or above">
+        <location
+            file="src/main/java/com/runtimeenabled/implementation/SdkServiceImpl.kt"
+            line="88"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of `compileSdkVersion` than 34 is available: 35">
+        <location
+            file="build.gradle"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of `compileSdkVersion` than 34 is available: 35">
+        <location
+            file="build.gradle"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.activity:activity-ktx than 1.9.0 is available: 1.10.0">
+        <location
+            file="build.gradle"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.activity:activity-ktx than 1.9.0 is available: 1.10.0">
+        <location
+            file="build.gradle"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.activity:activity-ktx than 1.9.0 is available: 1.10.0">
+        <location
+            file="build.gradle"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.activity:activity-ktx than 1.9.0 is available: 1.10.0">
+        <location
+            file="build.gradle"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.activity:activity-ktx than 1.9.0 is available: 1.10.0">
+        <location
+            file="build.gradle"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.annotation:annotation than 1.6.0 is available: 1.9.1">
+        <location
+            file="build.gradle"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.annotation:annotation than 1.6.0 is available: 1.9.1">
+        <location
+            file="build.gradle"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.annotation:annotation than 1.6.0 is available: 1.9.1">
+        <location
+            file="build.gradle"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.appcompat:appcompat than 1.6.1 is available: 1.7.0">
+        <location
+            file="build.gradle"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.appcompat:appcompat than 1.6.1 is available: 1.7.0">
+        <location
+            file="build.gradle"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.lifecycle:lifecycle-common than 2.7.0 is available: 2.8.7">
+        <location
+            file="build.gradle"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.lifecycle:lifecycle-common than 2.7.0 is available: 2.8.7">
+        <location
+            file="build.gradle"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.lifecycle:lifecycle-common than 2.7.0 is available: 2.8.7">
+        <location
+            file="build.gradle"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.lifecycle:lifecycle-common than 2.7.0 is available: 2.8.7">
+        <location
+            file="build.gradle"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.lifecycle:lifecycle-common than 2.7.0 is available: 2.8.7">
+        <location
+            file="build.gradle"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.privacysandbox.sdkruntime:sdkruntime-client than 1.0.0-alpha14 is available: 1.0.0-alpha16">
+        <location
+            file="build.gradle"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.privacysandbox.sdkruntime:sdkruntime-client than 1.0.0-alpha14 is available: 1.0.0-alpha16">
+        <location
+            file="build.gradle"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.privacysandbox.sdkruntime:sdkruntime-client than 1.0.0-alpha14 is available: 1.0.0-alpha16">
+        <location
+            file="build.gradle"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.privacysandbox.sdkruntime:sdkruntime-client than 1.0.0-alpha14 is available: 1.0.0-alpha16">
+        <location
+            file="build.gradle"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.privacysandbox.sdkruntime:sdkruntime-client than 1.0.0-alpha14 is available: 1.0.0-alpha16">
+        <location
+            file="build.gradle"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.privacysandbox.sdkruntime:sdkruntime-core than 1.0.0-alpha14 is available: 1.0.0-alpha16">
+        <location
+            file="build.gradle"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.privacysandbox.sdkruntime:sdkruntime-core than 1.0.0-alpha14 is available: 1.0.0-alpha16">
+        <location
+            file="build.gradle"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.privacysandbox.sdkruntime:sdkruntime-core than 1.0.0-alpha14 is available: 1.0.0-alpha16">
+        <location
+            file="build.gradle"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.privacysandbox.sdkruntime:sdkruntime-provider than 1.0.0-alpha14 is available: 1.0.0-alpha16">
+        <location
+            file="build.gradle"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.privacysandbox.sdkruntime:sdkruntime-provider than 1.0.0-alpha14 is available: 1.0.0-alpha16">
+        <location
+            file="build.gradle"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.privacysandbox.sdkruntime:sdkruntime-provider than 1.0.0-alpha14 is available: 1.0.0-alpha16">
+        <location
+            file="build.gradle"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.privacysandbox.tools:tools than 1.0.0-alpha09 is available: 1.0.0-alpha11">
+        <location
+            file="build.gradle"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.privacysandbox.tools:tools than 1.0.0-alpha09 is available: 1.0.0-alpha11">
+        <location
+            file="build.gradle"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.privacysandbox.tools:tools than 1.0.0-alpha09 is available: 1.0.0-alpha11">
+        <location
+            file="build.gradle"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.privacysandbox.ui:ui-client than 1.0.0-alpha12 is available: 1.0.0-alpha13">
+        <location
+            file="build.gradle"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.privacysandbox.ui:ui-client than 1.0.0-alpha12 is available: 1.0.0-alpha13">
+        <location
+            file="build.gradle"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.privacysandbox.ui:ui-client than 1.0.0-alpha12 is available: 1.0.0-alpha13">
+        <location
+            file="build.gradle"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.privacysandbox.ui:ui-client than 1.0.0-alpha12 is available: 1.0.0-alpha13">
+        <location
+            file="build.gradle"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.privacysandbox.ui:ui-core than 1.0.0-alpha12 is available: 1.0.0-alpha13">
+        <location
+            file="build.gradle"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.privacysandbox.ui:ui-core than 1.0.0-alpha12 is available: 1.0.0-alpha13">
+        <location
+            file="build.gradle"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.privacysandbox.ui:ui-core than 1.0.0-alpha12 is available: 1.0.0-alpha13">
+        <location
+            file="build.gradle"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.privacysandbox.ui:ui-core than 1.0.0-alpha12 is available: 1.0.0-alpha13">
+        <location
+            file="build.gradle"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.privacysandbox.ui:ui-core than 1.0.0-alpha12 is available: 1.0.0-alpha13">
+        <location
+            file="build.gradle"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.privacysandbox.ui:ui-provider than 1.0.0-alpha12 is available: 1.0.0-alpha13">
+        <location
+            file="build.gradle"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.privacysandbox.ui:ui-provider than 1.0.0-alpha12 is available: 1.0.0-alpha13">
+        <location
+            file="build.gradle"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.privacysandbox.ui:ui-provider than 1.0.0-alpha12 is available: 1.0.0-alpha13">
+        <location
+            file="build.gradle"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.privacysandbox.ui:ui-provider than 1.0.0-alpha12 is available: 1.0.0-alpha13">
+        <location
+            file="build.gradle"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of com.google.android.material:material than 1.9.0 is available: 1.12.0">
+        <location
+            file="build.gradle"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of org.jetbrains.kotlin:kotlin-stdlib-jdk8 than 1.8.10 is available: 2.1.0">
+        <location
+            file="build.gradle"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of org.jetbrains.kotlin:kotlin-stdlib-jdk8 than 1.8.10 is available: 2.1.0">
+        <location
+            file="build.gradle"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of org.jetbrains.kotlin:kotlin-stdlib-jdk8 than 1.8.10 is available: 2.1.0">
+        <location
+            file="build.gradle"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of org.jetbrains.kotlin:kotlin-stdlib-jdk8 than 1.8.10 is available: 2.1.0">
+        <location
+            file="build.gradle"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of org.jetbrains.kotlin:kotlin-stdlib-jdk8 than 1.8.10 is available: 2.1.0">
+        <location
+            file="build.gradle"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of org.jetbrains.kotlinx:kotlinx-coroutines-android than 1.7.1 is available: 1.7.3">
+        <location
+            file="build.gradle"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of org.jetbrains.kotlinx:kotlinx-coroutines-android than 1.7.1 is available: 1.7.3">
+        <location
+            file="build.gradle"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of org.jetbrains.kotlinx:kotlinx-coroutines-android than 1.7.1 is available: 1.7.3">
+        <location
+            file="build.gradle"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of org.jetbrains.kotlinx:kotlinx-coroutines-android than 1.7.1 is available: 1.7.3">
+        <location
+            file="build.gradle"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of org.jetbrains.kotlinx:kotlinx-coroutines-android than 1.7.1 is available: 1.7.3">
+        <location
+            file="build.gradle"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of org.jetbrains.kotlinx:kotlinx-coroutines-core than 1.7.1 is available: 1.7.3">
+        <location
+            file="build.gradle"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of org.jetbrains.kotlinx:kotlinx-coroutines-core than 1.7.1 is available: 1.7.3">
+        <location
+            file="build.gradle"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of org.jetbrains.kotlinx:kotlinx-coroutines-core than 1.7.1 is available: 1.7.3">
+        <location
+            file="build.gradle"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of org.jetbrains.kotlinx:kotlinx-coroutines-core than 1.7.1 is available: 1.7.3">
+        <location
+            file="build.gradle"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of org.jetbrains.kotlinx:kotlinx-coroutines-core than 1.7.1 is available: 1.7.3">
+        <location
+            file="build.gradle"/>
+    </issue>
+
+    <issue
+        id="SourceLockedOrientationActivity"
+        message="You should not lock orientation of your activities, so that you can support a good user experience for any device or orientation">
+        <location
+            file="src/main/java/com/runtimeenabled/implementation/ActivityHandler.kt"
+            line="84"/>
+    </issue>
+
+    <issue
+        id="SourceLockedOrientationActivity"
+        message="You should not lock orientation of your activities, so that you can support a good user experience for any device or orientation">
+        <location
+            file="src/main/java/com/mediatee/implementation/ActivityHandler.kt"
+            line="85"/>
+    </issue>
+
+    <issue
+        id="SetJavaScriptEnabled"
+        message="Using `setJavaScriptEnabled` can introduce XSS vulnerabilities into your application, review carefully">
+        <location
+            file="src/main/java/com/mediatee/implementation/FullscreenAdImpl.kt"
+            line="73"/>
+    </issue>
+
+    <issue
+        id="SetJavaScriptEnabled"
+        message="Using `setJavaScriptEnabled` can introduce XSS vulnerabilities into your application, review carefully">
+        <location
+            file="src/main/java/com/runtimeenabled/implementation/FullscreenAdImpl.kt"
+            line="93"/>
+    </issue>
+
+    <issue
+        id="ObsoleteSdkInt"
+        message="Unnecessary; `SDK_INT` is always >= 30">
+        <location
+            file="src/main/java/com/mediatee/implementation/FullscreenAdImpl.kt"
+            line="54"/>
+    </issue>
+
+    <issue
+        id="ObsoleteSdkInt"
+        message="Unnecessary; `SDK_INT` is always >= 30">
+        <location
+            file="src/main/java/com/runtimeenabled/implementation/FullscreenAdImpl.kt"
+            line="73"/>
+    </issue>
+
+    <issue
+        id="ObsoleteSdkInt"
+        message="This folder configuration (`v24`) is unnecessary; `minSdkVersion` is 25. Merge all the resources in this folder into `drawable`.">
+        <location
+            file="src/main/res/drawable-v24"/>
+    </issue>
+
+    <issue
+        id="ObsoleteSdkInt"
+        message="Unnecessary; `SDK_INT` is always >= 21">
+        <location
+            file="src/main/res/values-night/themes.xml"
+            line="26"/>
+    </issue>
+
+    <issue
+        id="ObsoleteSdkInt"
+        message="Unnecessary; `SDK_INT` is always >= 21">
+        <location
+            file="src/main/res/values-night/themes.xml"
+            line="26"/>
+    </issue>
+
+    <issue
+        id="ObsoleteSdkInt"
+        message="Unnecessary; `SDK_INT` is always >= 21">
+        <location
+            file="src/main/res/values/themes.xml"
+            line="26"/>
+    </issue>
+
+    <issue
+        id="ObsoleteSdkInt"
+        message="Unnecessary; `SDK_INT` is always >= 21">
+        <location
+            file="src/main/res/values/themes.xml"
+            line="26"/>
+    </issue>
+
+    <issue
+        id="Overdraw"
+        message="Possible overdraw: Root element paints background `@android:color/holo_purple` with a theme that also paints a background (inferred theme is `@android:style/Theme.Holo`)">
+        <location
+            file="src/main/res/layout/banner.xml"
+            line="20"/>
+    </issue>
+
+    <issue
+        id="Overdraw"
+        message="Possible overdraw: Root element paints background `@android:color/holo_purple` with a theme that also paints a background (inferred theme is `@style/Theme.Client`)">
+        <location
+            file="$HOME/me/work/privacy-sandbox-samples/PrivacySandboxKotlin/inapp-mediatee-sdk/src/main/res/layout/banner.xml"
+            line="20"/>
+    </issue>
+
+    <issue
+        id="MonochromeLauncherIcon"
+        message="The application adaptive icon is missing a monochrome tag">
+        <location
+            file="src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
+            line="14"/>
+    </issue>
+
+    <issue
+        id="MonochromeLauncherIcon"
+        message="The application adaptive roundIcon is missing a monochrome tag">
+        <location
+            file="src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
+            line="14"/>
+    </issue>
+
+    <issue
+        id="UseKtx"
+        message="Use the KTX extension function `String.toUri` instead?">
+        <location
+            file="src/main/java/com/runtimeenabled/implementation/ActivityHandler.kt"
+            line="102"/>
+    </issue>
+
+    <issue
+        id="UseKtx"
+        message="Use the KTX extension function `String.toUri` instead?">
+        <location
+            file="src/main/java/com/mediatee/implementation/ActivityHandler.kt"
+            line="103"/>
+    </issue>
+
+    <issue
+        id="SetTextI18n"
+        message="String literal in `setText` can not be translated. Use Android resources instead.">
+        <location
+            file="src/main/java/com/runtimeaware/sdk/BannerAd.kt"
+            line="56"/>
+    </issue>
+
+</issues>

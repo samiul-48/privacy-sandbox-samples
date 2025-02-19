@@ -15,7 +15,11 @@
  */
 package com.example.client
 
+import android.content.Context
+import android.content.pm.ShortcutManager
+import android.os.Build
 import android.os.Bundle
+import android.os.Process
 import android.widget.ArrayAdapter
 import android.widget.Button
 import android.widget.CheckBox
@@ -116,6 +120,7 @@ class MainActivity : AppCompatActivity() {
             mediationDropDownMenu.adapter = adapter
         }
 
+        tryRestrictedMethod()
     }
 
     private fun onInitializeSkButtonPressed() = lifecycleScope.launch {
@@ -170,6 +175,22 @@ class MainActivity : AppCompatActivity() {
 
     private fun makeToast(message: String) {
         runOnUiThread { Toast.makeText(this@MainActivity, message, Toast.LENGTH_SHORT).show() }
+    }
+
+    private fun tryRestrictedMethod() {
+        val manager =
+            applicationContext.getSystemService(Context.SHORTCUT_SERVICE) as? ShortcutManager
+        val state = manager?.isRateLimitingActive // Bad - calling getWifiState()
+        makeToast("Manager state: $state")
+
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
+            if (Process.isSdkSandbox()) {
+                val manager =
+                    applicationContext.getSystemService(Context.SHORTCUT_SERVICE) as? ShortcutManager
+                val state = manager?.isRateLimitingActive // Bad - calling getWifiState()
+                makeToast("Manager state again: $state")
+            }
+        }
     }
 
     companion object {

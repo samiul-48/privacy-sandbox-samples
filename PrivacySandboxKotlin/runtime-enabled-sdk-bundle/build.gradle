@@ -20,7 +20,7 @@ plugins {
 
 android {
     compileSdk 35
-    minSdk 21
+    minSdk 26
 
     bundle {
         // This package name is used to load this SDK in the Privacy Sandbox later on.
@@ -32,6 +32,10 @@ android {
         sdkProviderClassName = "androidx.privacysandbox.sdkruntime.provider.SandboxedSdkProviderAdapter"
         // SDK provider defined by the runtime-enabled-sdk itself.
         compatSdkProviderClassName = "com.runtimeenabled.implementation.SdkProvider"
+    }
+    lint {
+        error 'PrivacySandboxBlockedCall'
+        baseline = file("lint-baseline.xml")
     }
 }
 

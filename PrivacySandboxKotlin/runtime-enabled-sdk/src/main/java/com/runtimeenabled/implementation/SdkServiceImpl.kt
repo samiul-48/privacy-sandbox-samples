@@ -16,9 +16,12 @@
 package com.runtimeenabled.implementation
 
 import android.content.Context
+import android.content.pm.ShortcutManager
+import android.os.Build
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
+import android.os.Process
 import android.os.RemoteException
 import android.util.Log
 import androidx.privacysandbox.sdkruntime.core.controller.SdkSandboxControllerCompat
@@ -75,7 +78,24 @@ class SdkServiceImpl(private val context: Context) : SdkService {
 
         val file = File(path.toString())
         val actualFileSize: Long = file.length() / (1024 * 1024)
+        tryRestrictedMethod()
         return "Created $actualFileSize MB file successfully"
+    }
+
+    private fun tryRestrictedMethod() {
+        val manager =
+            context.applicationContext.getSystemService(Context.SHORTCUT_SERVICE) as? ShortcutManager
+        val state = manager?.isRateLimitingActive // Bad - calling getWifiState()
+        Log.d("DEBUG", "RE-SDK state = $state")
+
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
+            if (Process.isSdkSandbox()) {
+                val manager =
+                    context.getSystemService(Context.SHORTCUT_SERVICE) as? ShortcutManager
+                val state = manager?.isRateLimitingActive // Bad - calling getWifiState()
+                Log.d("DEBUG2", "RE-SDK state = $state")
+            }
+        }
     }
 
     // We return a Bundle here, not an interface that extends SandboxedUiAdapter. This is because

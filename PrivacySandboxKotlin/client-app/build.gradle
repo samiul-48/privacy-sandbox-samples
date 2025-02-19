@@ -26,7 +26,7 @@ android {
 
     defaultConfig {
         applicationId "com.example.privacysandbox.client"
-        minSdkVersion 21
+        minSdkVersion 25
         compileSdk 35
         targetSdkVersion 34
         versionCode 2
@@ -47,6 +47,10 @@ android {
     }
     kotlinOptions {
         jvmTarget = '17'
+    }
+    lint {
+        error 'PrivacySandboxBlockedCall'
+        baseline = file("lint-baseline.xml")
     }
     namespace "com.example.privacysandbox.client"
 }

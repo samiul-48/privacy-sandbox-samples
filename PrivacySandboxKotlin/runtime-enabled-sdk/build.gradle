@@ -22,7 +22,7 @@ android {
     namespace "com.runtimeenabled"
 
     defaultConfig {
-        minSdk 21
+        minSdk 26
         compileSdk 34
         compileSdkExtension 12
         targetSdk 34
@@ -40,6 +40,10 @@ android {
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_17
         targetCompatibility JavaVersion.VERSION_17
+    }
+    lint {
+        error 'PrivacySandboxBlockedCall'
+        baseline = file("lint-baseline.xml")
     }
     kotlinOptions {
         jvmTarget = '17'
